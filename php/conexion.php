@@ -60,4 +60,15 @@ if($Verdadero){
     echo "falso"
 }
 
+#Funciones
+
+function suma($a, $b){
+    return $a + $b;
+}
+
+#Arrays
+$array = array(1,2,3,4,5,6,7,8);
+#arrays de texto
+$array = array ("uno","dos","tres","cuatro");
+
 ?>
