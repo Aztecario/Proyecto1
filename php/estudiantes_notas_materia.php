@@ -27,9 +27,9 @@ if ($nota_Mayor >= 3.5) {
     echo 'Nota Mayor Reprobada '. '\n';
 }
 if ($nota_menor < 3.5) {
-    echo 'Nota Menor Aprobada'. '\n';
+    echo 'Nota Menor Reprobada '. '\n';
 }else {
-    echo 'Nota Menor Reprobada'. '\n';
+    echo 'Nota Menor Aprobada'. '\n';
 }
 
 echo 'la nota mayor es : '. $nota_Mayor .'\n';
