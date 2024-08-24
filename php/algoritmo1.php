@@ -27,6 +27,7 @@ if ( $numero2 > $numero1 && $numero2 > $numero3 ){
     $numero_mayor = $numero3;
 }
 echo "numero mayor es : " . $numero_mayor;  
+echo "numero mayor es : " . $numero_mayor; 
 
 
 
