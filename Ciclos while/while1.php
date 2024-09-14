@@ -18,7 +18,7 @@
 
         for($j = 1 ; $j <= $n ; $j++){
             $nota = readline("Ingrece nota $j: " );
-            if($nota >= 4){
+            if($nota >= 4 && $nota <=5){
 
                 $excelente = $nota;
 
@@ -33,8 +33,10 @@
             if($nota % 2 === 0){
 
                 echo $nota . " es par" . "\n";
+                echo "\n";
             }else{
                 echo $nota . " es impar". "\n";
+                echo "\n";
             }
         
         }
